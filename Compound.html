@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="CompoundInterest.js" defer></script>
+  <link rel="stylesheet" href="Interest.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compound Interest</title>
+</head>
+
+<body>
+  <center>
+    <h1 id="para1"> Compound Interest</h1>
+  </center>
+  <br/>
+  <br/>
+  <form style="margin: 30px;">
+    <fieldset>
+      <legend>Prerequisites:</legend>
+      <label for="principal">Principal:</label><br/>
+      <input type="number" id="principal" name="principal" autofocus/><br/>
+      <label for="rate">Interest Rate (In Percentage):</label><br/>
+      <input type="number" id="rate" name="rate"/><br/>
+      <label for="time">Time(in Years):</label><br/>
+      <input type="number" id="time" name="time"/><br/>
+      <label for="numb">Number of times interest compounded per year:</label><br/>
+      <input type="number" id="numb" name="numb"/><br/><br/>
+      <button type="button" onclick=Calculation()> Answer</button>
+    </fieldset>
+  </form>
+  <br/>
+  <p style="text-align: center; font-size: 30px;" id="ans">
+
+  </p>
+</body>
+
+</html>

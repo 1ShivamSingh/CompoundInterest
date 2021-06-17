@@ -1,0 +1,19 @@
+#para1 {
+    display: inline;
+    color: whitesmoke;
+    font-size: 30px; 
+    font-variant: small-caps;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    text-shadow:2px 2px 8px lightseagreen;
+    text-decoration-style: wavy;
+    border-bottom-style:inset;
+    border height : 15px;
+    letter-spacing : 2px;
+    
+}
+body {
+    background-image: url(pexels-alexander-kovalev-2847648.jpg);
+    background-position: top;
+    background-size: cover;
+    margin-top: 30px;
+}
