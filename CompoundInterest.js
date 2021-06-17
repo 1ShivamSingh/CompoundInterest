@@ -9,7 +9,7 @@ function Calculation() {
     let t = Number(TimeField.value);
     let n = Number(NumberField.value);
     let x = p * ((1 + (r / n)) ** (n * t))
-    x = x.toFixed(2);
+    x = x.toFixed(3);
     document.getElementById('ans').innerHTML =
         "The Final Amount after C.I is " + x + " Rupees";
     PrincipleField.value = "";
@@ -17,3 +17,4 @@ function Calculation() {
     TimeField.value = "";
     NumberField.value = "";
 }
+//Checking Git Commit via VS
