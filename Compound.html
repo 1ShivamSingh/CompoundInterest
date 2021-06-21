@@ -20,14 +20,12 @@
     <fieldset>
       <legend>Prerequisites:</legend>
       <label for="principal">Principal:</label><br/>
-      <input type="number" id="principal" name="principal" autofocus/><br/>
+      <input type="number" id="principal" name="principal" autocomplete="off" autofocus/><br/>
       <label for="rate">Interest Rate (In Percentage):</label><br/>
-      <input type="number" id="rate" name="rate"/><br/>
+      <input type="number" id="rate" name="rate" autocomplete="off"/><br/>
       <label for="time">Time(in Years):</label><br/>
-      <input type="number" id="time" name="time"/><br/>
-      <label for="numb">Number of times interest compounded per year:</label><br/>
-      <input type="number" id="numb" name="numb"/><br/><br/>
-      <button type="button" onclick=Calculation()> Answer</button>
+      <input type="number" id="time" name="time"autocomplete="off"/><br/>
+      <button type="button" onclick=Calculation()> Calculate </button>
     </fieldset>
   </form>
   <br/>
