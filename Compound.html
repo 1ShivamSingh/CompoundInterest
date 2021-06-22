@@ -16,16 +16,17 @@
   </center>
   <br/>
   <br/>
-  <form style="margin: 30px;">
+  <form style="margin: 30px;" onchange="FindMissing()" >
     <fieldset>
       <legend>Prerequisites:</legend>
       <label for="principal">Principal:</label><br/>
-      <input type="number" id="principal" name="principal" autocomplete="off" autofocus/><br/>
+      <input type="number" id="principal" name="principal" autocomplete="off" autofocus /><br/>
       <label for="rate">Interest Rate (In Percentage):</label><br/>
-      <input type="number" id="rate" name="rate" autocomplete="off"/><br/>
+      <input type="number" id="rate" name="rate" autocomplete="off" /><br/>
       <label for="time">Time(in Years):</label><br/>
-      <input type="number" id="time" name="time"autocomplete="off"/><br/>
-      <button type="button" onclick=Calculation()> Calculate </button>
+      <input type="number" id="time" name="time" autocomplete="off" /><br/>
+      <label for="compound"> Compound Interest : </label><br/>
+      <input type="number" id="compound" name="compound" autocomplete="off" /><br/> 
     </fieldset>
   </form>
   <br/>
